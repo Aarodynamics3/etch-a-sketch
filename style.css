@@ -24,3 +24,7 @@ html {
 
     letter-spacing: 0.04em;
 }
+
+#second-container {
+    background-color: blue;
+}
