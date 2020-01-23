@@ -1,8 +1,21 @@
-html {
+html, body {
+    height: 100%;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#first-container p {
+.page {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.first-container {
+    background-color: yellow;
+    flex: 0 1 auto;
+}
+
+.first-container p {
     color: red;
     font-size: 80px;
     text-align: center;
@@ -22,9 +35,19 @@ html {
                  0 10px 10px rgba(0,0,0,.2),
                  0 20px 20px rgba(0,0,0,.15);
 
-    letter-spacing: 0.04em;
+    letter-spacing: 3px;
+    margin-top: 150px;
+    margin-bottom: 50px;
 }
 
-#second-container {
-    background-color: blue;
+.second-container {
+    flex: 1 1 auto;
+    background-color: beige;
+    justify-content: center;
+}
+
+.etch-container {
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgb(149, 149, 255);
 }
