@@ -11,7 +11,6 @@ html, body {
 }
 
 .first-container {
-    background-color: yellow;
     flex: 0 1 auto;
 }
 
@@ -36,18 +35,46 @@ html, body {
                  0 20px 20px rgba(0,0,0,.15);
 
     letter-spacing: 3px;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 50px;
 }
 
 .second-container {
     flex: 1 1 auto;
-    background-color: beige;
-    justify-content: center;
 }
 
 .etch-container {
-    width: 200px;
+    width: 700px;
+    height: 500px;
     margin: 0 auto;
-    background-color: rgb(149, 149, 255);
+    background-color: rgb(255, 0, 0);
+    border: 5px solid rgb(180, 0, 0);
+    border-radius: 60px;
+    box-shadow: 1px 1px 0px rgb(180, 0, 0),
+                2px 2px 0px rgb(160, 0, 0),
+                3px 3px 0px rgb(140, 0, 0),
+                4px 4px 0px rgb(120, 0, 0),
+                5px 5px 0px rgb(100, 0, 0),
+                6px 6px 0px rgb(90, 0, 0),
+                7px 7px 0px rgb(75, 0, 0),
+                8px 8px 0px rgb(60, 0, 0),
+                10px 10px 3px rgba(0,0,0,.1),
+                0 0 7px rgba(0,0,0,.1),
+                3px 3px 5px rgba(0,0,0,.3),
+                7px 7px 7px rgba(0,0,0,.2),
+                7px 9px 10px rgba(0,0,0,.25),
+                13px 13px 10px rgba(0,0,0,.2),
+                20px 20px 20px rgba(0,0,0,.15);
+
+}
+
+.etch-screen {
+    width: 550px;
+    height: 350px;
+    background-color: lightgray;
+    margin: 75px auto 75px auto;
+    border-radius: 10px;
+    border: 5px inset rgb(218, 0, 0);
+
+
 }
