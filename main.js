@@ -8,7 +8,7 @@ etch_screen_container.appendChild(etch_screen);
     it will be a 14x22 grid with each square of 
     width and height 25px by 25px (total 308). */
 
-for (let i = 0; i < 308; i++) {
+for (let i = 0; i < 1925; i++) {
     const square = document.createElement('div');
     square.className = 'square';
     square.addEventListener('mouseover', function(e) {

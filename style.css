@@ -104,15 +104,16 @@ html, body {
     flex-wrap: wrap;
 }
 
+.square, .square-colored {
+    height: 10px;
+    width: 10px;
+}
+
 .square {
-    height: 25px;
-    width: 25px;
     background-color: lightgrey;
 }
 
 .square-colored {
-    height: 25px;
-    width: 25px;
     background-color: black;
 }
 
