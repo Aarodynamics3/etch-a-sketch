@@ -115,3 +115,21 @@ html, body {
     width: 25px;
     background-color: black;
 }
+
+.reset-button {
+    height: inherit;
+    width: inherit;
+    background-color: white;
+    border: 3px solid rgb(231, 231, 231);
+    border-radius: 60px;
+    font-weight: bold;
+    color: rgb(251, 112, 112);
+    font-size: 24px;
+}
+
+.button-container {
+    height: 50px;
+    width: 115px;
+    /* t r b l */
+    margin: 50px auto 0 auto;
+}
